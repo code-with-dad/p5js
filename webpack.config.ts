@@ -8,16 +8,18 @@ const LESSONS = ["225"] as const;
 
 type Lesson = (typeof LESSONS)[number];
 
-const lesson: Lesson = (process.env.LESSON as Lesson) ?? "lesson01-setup";
+const lesson: Lesson = (process.env.LESSON as Lesson) ?? undefined;
 
-if (!LESSONS.includes(lesson)) {
+if (lesson && !LESSONS.includes(lesson)) {
   throw new Error(`Unknown lesson: ${lesson}`);
 }
 
 const config: Configuration = {
   mode: "development",
 
-  entry: `./src/lessons/${lesson}/index.ts`,
+  entry: lesson
+    ? `./src/lessons/${lesson}/index.ts`
+    : "./src/code-with-dad/index.ts",
 
   devtool: "source-map",
 

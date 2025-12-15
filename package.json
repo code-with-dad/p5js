@@ -3,6 +3,7 @@
   "packageManager": "yarn@4.9.2",
   "private": true,
   "scripts": {
+    "code-with-dad": "webpack serve",
     "lesson:225": "cross-env LESSON=225 webpack serve",
     "build:225": "cross-env LESSON=225 webpack"
   },
