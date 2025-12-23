@@ -5,7 +5,9 @@
   "scripts": {
     "code-with-dad": "webpack serve",
     "lesson:225": "cross-env LESSON=225 webpack serve",
-    "build:225": "cross-env LESSON=225 webpack"
+    "lesson:242": "cross-env LESSON=242 webpack serve",
+    "build:225": "cross-env LESSON=225 webpack",
+    "build:242": "cross-env LESSON=242 webpack"
   },
   "devDependencies": {
     "@types/node": "^25.0.1",
