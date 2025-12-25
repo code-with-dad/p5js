@@ -6,8 +6,10 @@
     "code-with-dad": "webpack serve",
     "lesson:225": "cross-env LESSON=225 webpack serve",
     "lesson:242": "cross-env LESSON=242 webpack serve",
+    "lesson:245": "cross-env LESSON=245 webpack serve",
     "build:225": "cross-env LESSON=225 webpack",
-    "build:242": "cross-env LESSON=242 webpack"
+    "build:242": "cross-env LESSON=242 webpack",
+    "build:245": "cross-env LESSON=245 webpack"
   },
   "devDependencies": {
     "@types/node": "^25.0.1",
