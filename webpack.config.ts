@@ -4,7 +4,7 @@ import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import type { Configuration } from "webpack";
 import type { Configuration as DevServerConfiguration } from "webpack-dev-server";
 
-const LESSONS = ["225", "242", "245", "247"] as const;
+const LESSONS = ["225", "242", "245", "247", "248"] as const;
 
 type Lesson = (typeof LESSONS)[number];
 
