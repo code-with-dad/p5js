@@ -8,10 +8,12 @@
     "lesson:242": "cross-env LESSON=242 webpack serve",
     "lesson:245": "cross-env LESSON=245 webpack serve",
     "lesson:247": "cross-env LESSON=247 webpack serve",
+    "lesson:248": "cross-env LESSON=248 webpack serve",
     "build:225": "cross-env LESSON=225 webpack",
     "build:242": "cross-env LESSON=242 webpack",
     "build:245": "cross-env LESSON=245 webpack",
-    "build:247": "cross-env LESSON=247 webpack"
+    "build:247": "cross-env LESSON=247 webpack",
+    "build:248": "cross-env LESSON=248 webpack"
   },
   "devDependencies": {
     "@types/node": "^25.0.1",
