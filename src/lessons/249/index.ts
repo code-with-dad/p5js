@@ -104,8 +104,10 @@ new p5((p) => {
     let tw = p.textWidth("🐰") - 20;
     if ((x + s / 2 > ex) && (x - s / 2 < ex + ew) && (y + s / 2 > ey) && (y - s /2 < ey + eh)) {
       p.noLoop();
-      p.text("💥", x, y)
+      p.text("💥", x, y);
     }
-  };
 
+    //счеткик очков
+    p.text(p.frameCount, 80, 30);
+  };
 });
